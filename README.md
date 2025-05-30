@@ -34,15 +34,6 @@ This project integrates sensors and microcontrollers with AWS IoT Core to remote
   - AWS Lambda (optional for data processing)
     
   - AWS DynamoDB / S3 (data storage)
-## 📦 Project Structure
-iot-based-livestock-health-monitoring-system/
-│
-├── hardware/                  # Sensor connections, circuit diagrams
-├── firmware/                  # Arduino/ESP32 code
-├── aws-iot/                   # AWS IoT Core setup, policies, certificates
-├── dashboard/                 # Web/mobile dashboard code
-├── docs/                      # Reports, presentations, project proposal
-└── README.md                  # Project documentation
 # 🔌 Hardware Setup
 - Connect the sensors (MAX30102, MLX90614) to the ESP32.
 
